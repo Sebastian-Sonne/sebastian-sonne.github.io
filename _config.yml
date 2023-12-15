@@ -4,7 +4,7 @@ SEOTitle: Sebastian Sonne
 header-img: "https://www.google.com/search?client=firefox-b-1-d&sca_esv=591053097&sxsrf=AM9HkKknyHfZKTfPLE2uVOf30LWGX-EN6Q:1702607198860&q=banana&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjYrJ6KspCDAxWOPUQIHbJeCPsQ0pQJegQIDhAB&biw=1696&bih=822&dpr=1.13#imgrc=2F0QXu9YR6lh8M"
 email: example@mail.com
 description: "This is the awesome Description"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
+keyword: "java, mySQL, photography, tennis, nature"
 url: "https://sebastian-sonne.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -69,12 +69,12 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: "G-QWMT60VRHX" # Format: UA-xxxxxx-xx
+ga_domain: sebastian-sonne.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
+sidebar-about-description: "This is the sidebar about description"
 sidebar-avatar: https://github.com/sebastian-sonne.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
@@ -91,12 +91,5 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
+    { title: "", href: "link"};
   ]
