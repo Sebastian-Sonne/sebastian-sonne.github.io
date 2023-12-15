@@ -1,7 +1,7 @@
 # Site settings
 title: Sebastian Sonne
 SEOTitle: Sebastian Sonne
-header-img: "https://www.google.com/search?client=firefox-b-1-d&sca_esv=591053097&sxsrf=AM9HkKknyHfZKTfPLE2uVOf30LWGX-EN6Q:1702607198860&q=banana&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjYrJ6KspCDAxWOPUQIHbJeCPsQ0pQJegQIDhAB&biw=1696&bih=822&dpr=1.13#imgrc=2F0QXu9YR6lh8M"
+header-img: "img/bg_nature.jpg"
 email: example@mail.com
 description: "This is the awesome Description"
 keyword: "java, mySQL, photography, tennis, nature"
