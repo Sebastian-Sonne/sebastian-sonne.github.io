@@ -91,5 +91,5 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "", href: "link"};
+    { title: "", href: "link"},
   ]
