@@ -1,7 +1,7 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Sebastian Sonne",
+  "short_name": "Sebastian Sonne",
+  "description": "Hey there, come explore this site",
   "icons": [{
     "src": "icons/128.png",
     "sizes": "128x128",
