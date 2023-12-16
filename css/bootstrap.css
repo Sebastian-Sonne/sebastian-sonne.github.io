@@ -11,7 +11,6 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  background-color: #9a0000;
   margin: 0;
 }
 article,
@@ -1081,7 +1080,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #cfcfcf;
-  background-color: #0c0050;
+  background-color: #39e20b;
 }
 input,
 button,
