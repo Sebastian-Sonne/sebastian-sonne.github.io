@@ -91,6 +91,6 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "I dont have friends :(" , href: "https://sebastian-sonne.github.io/404.html"}
+    { title: "I dont have friends :(" , href: "https://sebastian-sonne.github.io/404.html"},
     { title: "LinkedIn", href: "https://linkedin.com/in/sebastian-sonne"},
   ]
