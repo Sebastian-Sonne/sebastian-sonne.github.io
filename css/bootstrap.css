@@ -44,7 +44,8 @@ template {
   display: none;
 }
 a {
-  background-color: transparent;
+  /*background-color: transparent;*/
+  background-color: #843534;
 }
 a:active,
 a:hover {
@@ -257,7 +258,7 @@ th {
   }
   .table td,
   .table th {
-    background-color: #fff !important;
+    background-color: #0d0056 !important;
   }
   .table-bordered th,
   .table-bordered td {
