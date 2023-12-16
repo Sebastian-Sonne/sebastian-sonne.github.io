@@ -194,7 +194,7 @@ th {
   *,
   *:before,
   *:after {
-    color: #000 !important;
+    color: rgb(6, 229, 147)fff !important;
     text-shadow: none !important;
     background: transparent !important;
     -webkit-box-shadow: none !important;
@@ -248,7 +248,7 @@ th {
   }
   .btn > .caret,
   .dropup > .btn > .caret {
-    border-top-color: #000 !important;
+    border-top-color: #ff0000 !important;
   }
   .label {
     border: 1px solid #000;
