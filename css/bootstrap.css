@@ -241,14 +241,14 @@ th {
     page-break-after: avoid;
   }
   select {
-    background: #fff !important;
+    background: #ffffff !important;
   }
   .navbar {
     display: none;
   }
   .btn > .caret,
   .dropup > .btn > .caret {
-    border-top-color: #ff0000 !important;
+    border-top-color: #ffffff !important;
   }
   .label {
     border: 1px solid #000;
@@ -3058,7 +3058,7 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #fff;
+  background-color: #c0c0c0;
   border-color: #ccc;
 }
 .btn-default .badge {
@@ -3455,14 +3455,14 @@ tbody.collapse.in {
 .dropdown-menu > li > a:focus {
   color: #262626;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #ff0000;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #fff;
+  color: #ff0000;
   text-decoration: none;
-  background-color: #337ab7;
+  background-color: #b73333;
   outline: 0;
 }
 .dropdown-menu > .disabled > a,
@@ -3788,7 +3788,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1;
   color: #555;
   text-align: center;
-  background-color: #eee;
+  background-color: #ff0000;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -3873,7 +3873,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #f50000;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -3921,8 +3921,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555;
   cursor: default;
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
   border-bottom-color: transparent;
 }
 .nav-tabs.nav-justified {
