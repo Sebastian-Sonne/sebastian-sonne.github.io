@@ -13,6 +13,3 @@ Let's connect and share the journey, whether it's coding adventures, acing a ser
 ### Skills and Experience
 * 💻 Java
 * 💾 MySQL
-
-### Connect with me
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Sebastian-Sonne)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/sebastian-sonne/)  
