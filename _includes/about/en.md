@@ -10,7 +10,7 @@ I'm not your typical __exchange student__; I'm the guy with a camera always at t
 
 But it's not just about the places; it's about the people. I thrive on being surrounded by friends, and my journey has taken me to many corners of the globe. From the expansive landscapes of Australia to the vibrant culture of Japan, and the eclectic charm of Southeast Asia, I've soaked in the richness of diverse cultures. In Europe, I've woven through various countries, and in the Southern USA, I've discovered a whole new rhythm of life.
 
-##### **Tennis Enthusiast, Code Weaver, and DevOps Explorer**
+#####  **Tennis Enthusiast, Code Weaver, and DevOps Explorer**
 
 When I'm not behind the lens, I'm on the tennis court, navigating the line between passion and sweat. Off the court, I'm diving deep into the world of Java, sprinkling in some mySQL knowledge, and exploring the mysteries of DevOps. You could say I'm a coder by day, tennis enthusiast by afternoon, and an explorer by night.
 
