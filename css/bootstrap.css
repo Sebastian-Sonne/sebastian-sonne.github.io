@@ -1586,6 +1586,10 @@ pre code {
   margin-right: -30px;
   margin-left: -30px;
 }
+.row-photo {
+  margin-right: -300px;
+  margin-left: -300px;
+}
 .col-lg-1,
 .col-lg-10,
 .col-lg-11,

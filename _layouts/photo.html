@@ -12,7 +12,7 @@ layout: default
 <!-- Post Content -->
 <article>
     <div class="container">
-        <div class="row">
+        <div class="row-photo">
 
     <!-- Post Container -->
             <div class="
@@ -26,7 +26,7 @@ layout: default
                 {% endif %}
 
 				{{ content }}
-
+                
                 <hr style="visibility: hidden;">
 
                 {% if site.disqus_username %}
@@ -42,36 +42,9 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
-            </div>  
-
-    <!-- Side Catalog Container -->
-        {% unless page.no-catalog %}
-            <div class="
-                col-lg-2 col-lg-offset-0
-                visible-lg-block
-                sidebar-container
-                catalog-container">
-                <div class="side-catalog">
-                    <hr class="hidden-sm hidden-xs">
-                    <h5>
-                        <a class="catalog-toggle" href="#">CATALOG</a>
-                    </h5>
-                    <ul class="catalog-body"></ul>
-                </div>
-            </div>
-        {% endunless %}
-
-    <!-- Sidebar Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                <!-- Featured Tags -->
-                {% include featured-tags.html bottom=true %}
 
                 <hr>
-            </div>
+            </div> 
         </div>
     </div>
 </article>
