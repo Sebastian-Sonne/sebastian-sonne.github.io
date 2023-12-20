@@ -1595,7 +1595,6 @@ pre code {
 .col-lg-11,
 .col-lg-12,
 .col-lg-2,
-.col-lg-3,
 .col-lg-4,
 .col-lg-5,
 .col-lg-6,
@@ -1642,6 +1641,12 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+}
+.col-lg-3 {
+  position: relative;
+  min-height: 1px;
+  padding-right: -200px;
+  padding-left: -200px;
 }
 .col-xs-1,
 .col-xs-10,
