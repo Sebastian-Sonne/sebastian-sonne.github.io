@@ -14,11 +14,11 @@
   font-size: 14px;
 }
 .sidebar-container h5 {
-  color: #a3a3a3;
+  color: #ffffff;
   padding-bottom: 1em;
 }
 .sidebar-container h5 a {
-  color: #a3a3a3 !important;
+  color: #ffffff !important;
   text-decoration: none;
 }
 .sidebar-container a {
@@ -26,7 +26,7 @@
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
-  color: #0085a1 !important;
+  color: #4bc5c5 !important;
 }
 .sidebar-container .tags a {
   border-color: #bfbfbf;
@@ -656,10 +656,11 @@ body {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
+  font: Poppins;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 16px;
-  color: #404040;
+  color: #cccccc;
   overflow-x: hidden;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -696,7 +697,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #4bc5c5;
 }
 a img:hover,
 a img:focus {
@@ -728,10 +729,10 @@ img.shadow {
 select {
   -webkit-appearance: none;
   margin-top: 15px;
-  color: #337ab7;
-  border-color: #337ab7;
+  color: #fff;
+  border-color: #4bc5c5;
   padding: 0em 0.4em;
-  background: white;
+  background: #191919;
 }
 select.sel-lang {
   min-height: 28px;
@@ -777,11 +778,11 @@ samp {
   margin-bottom: 15px;
 }
 .post-container a {
-  color: #337ab7;
+  color: #4bc5c5;
 }
 .post-container a:hover,
 .post-container a:focus {
-  color: #0085a1;
+  color: #b9b9b9;
 }
 .post-container h1,
 .post-container h2,
@@ -810,7 +811,7 @@ samp {
 .post-container h4 {
   font-size: 22px;
   font-weight: 600;
-  color: gray;
+  color: rgb(255, 255, 255);
 }
 .post-container h4 + p {
   margin-top: 10px;
@@ -819,7 +820,7 @@ samp {
 .post-container h6 {
   font-size: 20px;
   font-weight: 600;
-  color: gray;
+  color: rgb(255, 255, 255);
 }
 .post-container h5 + p,
 .post-container h6 + p {
@@ -1072,21 +1073,21 @@ samp {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-bottom: 1px solid #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-bottom: 1px solid #000000;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #ffffff;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #ffffff;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -1255,12 +1256,12 @@ samp {
   }
 }
 .post-preview > a {
-  color: #404040;
+  color: #ffffff;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #4bc5c5;
 }
 .post-preview > a > .post-title {
   font-size: 21px;
@@ -1284,7 +1285,7 @@ samp {
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #5f5f5f;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
@@ -1346,11 +1347,11 @@ footer .copyright {
   margin-bottom: 0;
 }
 footer .copyright a {
-  color: #337ab7;
+  color: #777;
 }
 footer .copyright a:hover,
 footer .copyright a:focus {
-  color: #0085a1;
+  color: #4bc5c5;
 }
 .btn {
   /* Hux learn from
