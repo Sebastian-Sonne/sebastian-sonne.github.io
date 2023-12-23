@@ -1,4 +1,4 @@
-# Welcome to My Personal Website Repository
+# Welcome to My Personal Website Repository [WIP]
 
 Hello and thank you for visiting my repository! This is the home of my personal website, a multifaceted platform where I showcase my projects, share my photography, and express my thoughts through blogging.
 
@@ -29,6 +29,8 @@ I'm always open to connecting with like-minded individuals and professionals. Fe
 To explore the website, please visit [My Personal Website](https://sebastian-sonne.github.io). You are also welcome to fork this repository, contribute to its development, or use it as inspiration for your own projects.
 
 Thank you for your interest, and I hope you find the contents of this repository engaging and inspiring!
+
+#### Keep in mind that this website is still WIP
 
 Best regards,
 Sebastian Sonne
