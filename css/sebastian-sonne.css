@@ -1458,7 +1458,7 @@ img::-moz-selection {
 .tags a,
 .tags .tag {
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid #191919;
   border-radius: 999em;
   padding: 0 10px 0 10px;
   color: #ffffff;
@@ -1480,7 +1480,7 @@ img::-moz-selection {
 .tags .tag:active {
   color: white;
   border-color: white;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #191919;
   text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
@@ -1506,11 +1506,11 @@ img::-moz-selection {
   transition-duration: 0.4s;
   transition-timing-function: ease;
   font-size: 14px;
-  border: none;
+  border: 1px solid #fff;
   line-height: 28px;
   margin: 0 2px;
   margin-bottom: 8px;
-  background: #f3f5f5;
+  background: #191919 !important;
 }
 #tag_cloud a:hover,
 #tag_cloud .tag:hover,
@@ -1518,7 +1518,7 @@ img::-moz-selection {
 #tag_cloud .tag:active,
 #tag_cloud a.focus,
 #tag_cloud .tag.focus {
-  background-color: #0085a1 !important;
+  background-color: #4bc5c5 !important;
 }
 #tag_cloud a.focus,
 #tag_cloud .tag.focus {
@@ -1527,7 +1527,7 @@ img::-moz-selection {
 #tag_cloud a.tag-button--all,
 #tag_cloud .tag.tag-button--all {
   font-weight: 700;
-  color: #0085a1 !important;
+  color: #ffffff;
 }
 #tag_cloud a.tag-button--all:hover,
 #tag_cloud .tag.tag-button--all:hover,
@@ -1535,7 +1535,7 @@ img::-moz-selection {
 #tag_cloud .tag.tag-button--all:active,
 #tag_cloud a.tag-button--all.focus,
 #tag_cloud .tag.tag-button--all.focus {
-  background-color: #e4e4e4 !important;
+  background-color: #191919;
 }
 @media only screen and (min-width: 768px) {
   #tag_cloud {
@@ -1554,7 +1554,7 @@ img::-moz-selection {
   margin-top: 0px;
 }
 .listing-seperator {
-  color: #0085a1;
+  color: #4bc5c5;
   font-size: 21px !important;
 }
 .listing-seperator::before {
