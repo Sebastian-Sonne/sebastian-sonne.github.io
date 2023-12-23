@@ -53,13 +53,13 @@ You can easily customize the blog by modifying `_config.yml`:
 
 ```yml
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog          # check out docs for more detail
-description: "Cool Blog"    # ...
+title: Sebastian Sonne            # title of your website
+SEOTitle: Sebastian Sonne          # check out docs for more detail
+description: "Persinal Website"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: sebastian-sonne     # modify this account to yours
+#weibo_username: huxpro      # the footer woule be auto-updated.
 
 # Build settings
 paginate: 10                # nums of posts in one page
@@ -118,7 +118,7 @@ mathjax: true
 3. Adding a mask to the header picture:
 
 ```yml
-header-mask: 0.3
+header-mask: 0.0
 ```
 
 Etc.
