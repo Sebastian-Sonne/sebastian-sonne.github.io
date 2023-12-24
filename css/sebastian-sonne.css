@@ -139,6 +139,94 @@
 /*
   Please note this CSS is currently in   prototype form. We'll implement a cleaned up version in Web Starter Kit.
 */
+/* Background styles for custom form */
+#contact-body {
+  background: url("/img/bg-material.jpg") center/cover no-repeat;
+  background-color: #191919;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Glassmorphism card effect for custom form */
+.contact-container.glassmorphism {
+  backdrop-filter: blur(4px) saturate(101%);
+  -webkit-backdrop-filter: blur(4px) saturate(101%);
+  background-color: rgba(17, 25, 40, 0.74);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Specific styles for custom form */
+.custom-form h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.custom-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-form .form-group {
+  margin-bottom: 15px;
+}
+
+.custom-form label {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.custom-form input,
+.custom-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd82;
+  color: #fff;
+  background-color: #2a2a2ab1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.custom-form textarea {
+  width: 100%;
+  padding: 15px; /* Adjust the padding to increase height */
+  border: 1px solid #dddddd82;
+  color: #fff;
+  background-color: #2a2a2ab1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  height: 100px; /* Adjust the height as needed */
+  line-height: 1.5; /* Adjust the line-height for better vertical alignment */
+}
+
+.custom-form button {
+  background: #4bc5c5a1;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.custom-form button:hover {
+  transition: 0.25s;
+  background: #266666;
+}
+
 .paper-snackbar {
   transition-property: opacity, bottom, left, right, width, margin, border-radius;
   transition-duration: 0.5s;
