@@ -1,7 +1,7 @@
 /* Background styles */
 body {
   background: url("/img/bg_abstract_standard.jpg") center/cover no-repeat;
-  
+  background-color: #191919;
   height: 100vh;
   display: flex;
   justify-content: center;
