@@ -1,0 +1,17 @@
+<div class="button-container">
+    <div>
+        <a class="standard-button contact-button" id="home-link">Home</a>
+    </div>
+    <button class="standard-button" onclick="scrollToTop()">Top</button>
+</div>
+
+<script>
+    document.getElementById('home-link').href = window.location.origin;
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+</script>

@@ -20,25 +20,3 @@ multilingual: true
     {% capture about_en %}{% include about/en.md %}{% endcapture %}
     {{ about_en | markdownify }}
 </div>
-
-<br>
-
-<div class="button-container">
-    <div>
-        <a class="standard-button contact-button" id="contact-link">Connect</a>
-        <a class="standard-button" id="home-link">Home</a>
-    </div>
-    <button class="standard-button" onclick="scrollToTop()">Top</button>
-</div>
-
-<script>
-    document.getElementById('home-link').href = window.location.origin;
-    document.getElementById('contact-link').href = window.location.origin + '/contact.html';
-
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
-</script>
