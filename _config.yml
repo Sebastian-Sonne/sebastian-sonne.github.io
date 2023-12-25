@@ -93,7 +93,4 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "Github", href: "https://sebastian-sonne.github.io/404.html"},
-    { title: " | ", href: "https://sebastian-sonne.github.io"},
-    { title: "LinkedIn", href: "https://linkedin.com/in/sebastian-sonne"},
   ]
