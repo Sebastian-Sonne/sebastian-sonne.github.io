@@ -126,10 +126,10 @@
 }
 .side-catalog .catalog-body .active {
   border-radius: 4px;
-  background-color: #f5f5f5;
+  background-color: #282c34;
 }
 .side-catalog .catalog-body .active a {
-  color: #0085a1 !important;
+  color: #4bc5c5 !important;
 }
 @media (max-width: 1200px) {
   .side-catalog {
@@ -787,7 +787,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 16px;
-  color: #cccccc;
+  color: #ffffff;
   overflow-x: hidden;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -1584,7 +1584,7 @@ img::-moz-selection {
 .tags a,
 .tags .tag {
   display: inline-block;
-  border: 1px solid #191919;
+  border: 1px solid #ffffff;
   border-radius: 999em;
   padding: 0 10px 0 10px;
   color: #ffffff;
