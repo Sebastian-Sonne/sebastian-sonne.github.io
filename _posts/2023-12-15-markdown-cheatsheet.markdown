@@ -12,7 +12,7 @@ tags:
     - code
 ---
 
-### This is a basic cheatsheet for writing in Markdown.
+This is a basic cheatsheet for writing in Markdown. 
 
 ### Headers
 <hr>
@@ -29,10 +29,10 @@ To create a header, use `#` for a level 1 header, `##` for level 2, and so on up
 
 ### Emphasis
 <hr>
-* Italicize text with `*asterisks*` or `_underscores_`.
-* Bold text with `**double asterisks**` or `__double underscores__`.
-* Combine them for `**_italic and bold_**`.
-* Cross out text with `~double tilde~~`.
+* *Italicize* text with `*asterisks*` or `_underscores_`.
+* **Bold** text with `**double asterisks**` or `__double underscores__`.
+* **_Combine them_** for `**_italic and bold_**`.
+* ~~Cross out~~ text with `~double tilde~~`.
 
 ```markdown
 *Italic* or _Italic_
@@ -40,11 +40,6 @@ To create a header, use `#` for a level 1 header, `##` for level 2, and so on up
 **_Combined Emphasis_**
 ~~Strikethrough~~
 ```
-  
-* *Italic* or _Italic_
-* **Bold** or __Bold__
-* **_Combined Emphasis_**
-* ~~Strikethrough~~
 
 ### Lists
 <hr>
