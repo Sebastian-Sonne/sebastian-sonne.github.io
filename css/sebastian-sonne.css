@@ -139,6 +139,44 @@
 /*
   Please note this CSS is currently in   prototype form. We'll implement a cleaned up version in Web Starter Kit.
 */
+/*about page button color*/
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.standard-button {
+  display: inline-block;
+  padding: 15px 30px;
+  width: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid transparent;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.standard-button:hover {
+  text-decoration: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.contact-button {
+  border: 2px solid #4bc5c5;
+}
+
+.contact-button:hover {
+  border-color: #ffffff;
+}
+
 /* Background styles for custom form */
 #contact-body {
   background: url("/img/bg-material.jpg") center/cover no-repeat;
