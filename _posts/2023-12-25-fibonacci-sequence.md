@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Java: Fibonacci Sequence"
+title:      "[Java] Fibonacci Sequence"
 subtitle:   " \"A simple java class to print n Fibonacci numvers\""
 date:       2023-12-25 12:00:00
 author:     "Sebastian Sonne"
