@@ -22,20 +22,29 @@
   text-decoration: none;
 }
 .sidebar-container a {
-  color: #bfbfbf !important;
+  color: #676565 !important;
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
   color: #4bc5c5 !important;
 }
 .sidebar-container .tags a {
-  border-color: #bfbfbf;
+  border-color: #404040;
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
   border-color: #0085a1;
 }
 .sidebar-container .short-about img {
+  width: 80%;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+  cursor: default;
+}
+.sidebar-container .short-about img:hover {
+  transform: scale(1.05);
   width: 80%;
   display: block;
   border-radius: 5px;
@@ -186,7 +195,7 @@
 .more-button:hover {
   transition: box-shadow 0.3s ease,;
   color: #000000;
-  box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+  box-shadow: 0 0 20px #4bc5c5;
   background-color: #ffffff;
 }
 
@@ -834,6 +843,7 @@ h4 {
 }
 a {
   color: #404040;
+  transition: color 0.3s;
 }
 a:hover,
 a:focus {
@@ -1397,11 +1407,13 @@ samp {
 }
 .post-preview > a {
   color: #ffffff;
+  transition: transform 0.3s;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
   color: #4bc5c5;
+  transform: scale(1.1);
 }
 .post-preview > a > .post-title {
   font-size: 21px;
