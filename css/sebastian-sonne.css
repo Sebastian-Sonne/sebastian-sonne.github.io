@@ -160,12 +160,13 @@
   color: #fff;
   background-color: transparent;
   border: 2px solid transparent;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, transform 0.3s;
 }
 
 .standard-button:hover {
   text-decoration: none;
   border: 2px solid #fff;
+  transform: scale(1.1);
   color: #fff;
 }
 
@@ -175,6 +176,18 @@
 
 .contact-button:hover {
   border-color: #ffffff;
+}
+
+.more-button {
+  color: #ffffff;
+  background-color: #4bc5c5;
+}
+
+.more-button:hover {
+  transition: box-shadow 0.3s ease,;
+  color: #000000;
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+  background-color: #ffffff;
 }
 
 /* Background styles for custom form */

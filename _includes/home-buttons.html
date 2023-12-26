@@ -1,13 +1,13 @@
 <div class="button-container">
     <div>
-        <a class="standard-button more-button" id="contact-link">Connect</a>
-        <a class="standard-button" id="home-link">Home</a>
+        <a class="standard-button more-button" id="more-link">More</a>
+        <a class="standard-button contact-button" id="contact-link">Contact</a>
     </div>
     <button class="standard-button" onclick="scrollToTop()">Top</button>
 </div>
 
 <script>
-    document.getElementById('home-link').href = window.location.origin;
+    document.getElementById('more-link').href = window.location.origin + '/archive';
     document.getElementById('contact-link').href = window.location.origin + '/contact.html';
 
     function scrollToTop() {
