@@ -1,7 +1,7 @@
 ---
 layout:     photo
-title:      "Photography Grid"
-subtitle:   " \"The ultimate photgraphy grid\""
+title:      "Photography Grid - WIP"
+subtitle:   " \"Photogrid layout for posts - WIP\""
 date:       2023-12-19 12:00:00
 author:     "Sebastian Sonne"
 header-img: "img/bg-walle.jpg"

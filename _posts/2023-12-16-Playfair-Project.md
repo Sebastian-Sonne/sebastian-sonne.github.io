@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Playfair-Project"
+title:      "[Java] Playfair-Project"
 subtitle:   " \"Enhancing Programming Skills Through Encryption\""
 date:       2023-12-16 12:00:00
 author:     "Sebastian Sonne"
@@ -9,6 +9,8 @@ catalog: true
 tags:
     - encyption
     - education
+    - java
+    - code
 ---
 
 Welcome to the Playfair-Project, a Java application crafted to elevate students' programming proficiency. This innovative project not only serves as a platform to sharpen coding skills but also delves into the intriguing world of encryption. One of its highlights is the incorporation of the Playfair encryption method, providing a hands-on learning experience for students.
