@@ -151,28 +151,44 @@
 /*
   redirect page css
 */
+.background-wrapper {
+  background-image: url('/img/bg_working_dark.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
 
 .lp-body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #191919;
+  background-color: transparent;
   margin: 0;
   padding: 0;
 }
 
-.lp-header {
-  background-color: #333;
+.lp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lp-section-div{
+  background-color: rgba(0, 0, 0, 0.33);
+  border-radius: 10px;
   color: #fff;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
 }
 
 .lp-section {
   padding: 40px;
   text-align: center;
-  background-color: #191919;
+  background-color: transparent;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .lp-countdown {

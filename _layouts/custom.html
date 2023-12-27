@@ -3,11 +3,13 @@
 <head>
     {% include head.html %}
 </head>
-<body>
+<body ontouchstart="">
     {% include nav.html %}
+    {% include search.html %}
+
+    <div class="background-wrapper">
+        {{ content }}
+    </div>
     
-    {{ content }}
-    
-    {% include footer.html %}
 </body>
 </html>
