@@ -1,35 +1,38 @@
 ---
 layout: custom
 title: "Success"
-description: "Your message has been received successfully"
-header-img: "img/bg_cubes.jpg"
+hide-in-nav: true
 ---
 
-<section class="lp-section">
-    <p>Your message has been received successfully. We'll get back to you shortly.</p>
-
-    <div class="lp-countdown">Redirecting in <span class="lp-countdown-number">5</span> seconds...</div>
-  </section>
-
-  <script>
-    var countdownNumber = 5; // Set the initial countdown value
-    var countdownElement = document.getElementsByClassName('lp-countdown-number')[0];
+<div class="lp-container">
+    <section class="lp-section">
+        <div class="lp-section-div">
+            <h3>Your message has been received successfully. We'll get back to you shortly.</h3>
     
-    // Check if the 'developer' parameter is present in the URL
-    var isDeveloper = window.location.search.includes('developer');
-  
-    if (!isDeveloper) {
-        var countdownInterval = setInterval(function () {
-            countdownNumber--;
-            countdownElement.textContent = countdownNumber;
-  
-            if (countdownNumber <= 0) {
-                clearInterval(countdownInterval);
-                window.location.href = window.location.origin;
-            }
-        }, 1000); // 1000 milliseconds = 1 second
-    } else {
-        // Developer is present, do not redirect
-        document.getElementsByClassName('lp-countdown')[0].textContent = 'Developer mode activated. No redirection.';
-    }
-  </script>
+            <div class="lp-countdown">Redirecting in <span class="lp-countdown-number">5</span> seconds...</div>
+        </div>
+    </section>
+    
+    <script>
+      var countdownNumber = 5; // Set the initial countdown value
+      var countdownElement = document.getElementsByClassName('lp-countdown-number')[0];
+        
+      // Check if the 'developer' parameter is present in the URL
+      var isDeveloper = window.location.search.includes('dev');
+    
+        if (!isDeveloper) {
+            var countdownInterval = setInterval(function () {
+                countdownNumber--;
+                countdownElement.textContent = countdownNumber;
+      
+                if (countdownNumber <= 0) {
+                    clearInterval(countdownInterval);
+                    window.location.href = window.location.origin;
+                }
+            }, 1000); // 1000 milliseconds = 1 second
+        } else {
+          // Developer is present, do not redirect
+          document.getElementsByClassName('lp-countdown')[0].textContent = 'Developer mode activated. No redirection.';
+        }
+    </script>
+</div>
