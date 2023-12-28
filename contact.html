@@ -4,57 +4,90 @@ title: "Contact"
 ---
 
 <div class="background-wrapper-contact">
-    <div class="contact-body">
-        <div class="contact-container glassmorphism">
-            <form id="contact-form" class="custom-form" action="https://formspree.io/f/moqgarqj" method="post">
-              <h1>Contact Me</h1>
-              <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-              </div>
-              <button type="submit">Send</button>
-            </form>
-          
-            <!--redirect to thankyou page-->
-            <script>
-              document.getElementById('contact-form').addEventListener('submit', function(e) {
-                  e.preventDefault();
-              
-                  // Get the form data
-                  var formData = new FormData(this);
-                  // Send a POST request to Formspree
-                  fetch(this.action, {
-                      method: this.method,
-                      body: formData,
-                      headers: {
-                      'Accept': 'application/json'
-                      }
-                  })
-                  .then(response => {
-                      if (!response.ok) {
-                      throw new Error('Network response was not ok');
-                          }
-                      return response.json();
-                  })
-                  .then(data => {
-                      // Redirect to a custom URL
-                      window.location.href = window.location.origin + '/success/';
-                  })
-                      .catch(error => {
-                      // Handle errors
-                      console.error('There was an error!', error);
-                      alert('An error occurred. Please try again.');
-                  });
-              });
-          </script>
-        </div>
+  <!-- Loading Screen -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="progress-bar-container">
+      <div id="progressBar" class="progress-bar"></div>
     </div>
+    <p>Sending...</p>
+  </div>
+
+  <div class="contact-body">
+    <div class="contact-container glassmorphism">
+      <form id="contact-form" class="custom-form" action="https://formspree.io/f/moqgarqj" method="post">
+        <h1>Contact Me</h1>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+
+      <!--redirect to thankyou page-->
+      <script>
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          // Display the loading screen
+          document.getElementById("loadingScreen").style.display = "flex";
+
+          // Start simulating the form submission progress
+          simulateFormSubmission(() => {
+            // Get the form data
+            var formData = new FormData(this);
+
+            // Send a POST request to Formspree
+            fetch(this.action, {
+              method: this.method,
+              body: formData,
+              headers: {
+                'Accept': 'application/json'
+              }
+            })
+              .then(response => {
+                if (!response.ok) {
+                  throw new Error('Network response was not ok');
+                }
+                return response.json();
+              })
+              .then(data => {
+                // Redirect to a custom URL
+                window.location.href = window.location.origin + '/success';
+              })
+              .catch(error => {
+                // Handle errors
+                console.error('There was an error!', error);
+                alert('An error occurred. Please try again.');
+
+                // Hide the loading screen in case of error
+                document.getElementById("loadingScreen").style.display = "none";
+              });
+          });
+        });
+
+        function simulateFormSubmission(callback) {
+          const progressBar = document.getElementById("progressBar");
+          let progress = 0;
+          const interval = setInterval(function () {
+            progress++;
+            progressBar.style.width = `${progress}%`;
+
+            if (progress >= 100) {
+              clearInterval(interval);
+
+              callback();
+            }
+          }, 10); // Adjust the speed as necessary
+        }
+      </script>
+    </div>
+  </div>
 </div>
