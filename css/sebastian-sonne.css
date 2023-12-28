@@ -152,7 +152,7 @@
   redirect page css
 */
 .background-wrapper-success {
-  background-image: url('/img/bg_working_dark.png');
+  background-image: url('/img/bg_cubes.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,6 +201,12 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 18px;
   color: #ffffff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.lp-countdown:hover {
+  box-shadow: 0 0 20px #ffffff;
+  transform: scale(1.1);
 }
 
 .lp-countdown-number {

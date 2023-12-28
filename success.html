@@ -9,32 +9,44 @@ hide-in-nav: true
         <section class="lp-section">
             <div class="lp-section-div">
                 <h3>Your message has been received successfully. We'll get back to you shortly.</h3>
-        
-                <div class="lp-countdown">Redirecting in <span class="lp-countdown-number">5</span> seconds...</div>
+
+                <a href="#" id="redirectLink">
+                    <div class="lp-countdown">Redirecting in <span class="lp-countdown-number">10</span> seconds...
+                    </div>
+                </a>
             </div>
         </section>
-        
+
         <script>
-          var countdownNumber = 5; // Set the initial countdown value
-          var countdownElement = document.getElementsByClassName('lp-countdown-number')[0];
-            
-          // Check if the 'developer' parameter is present in the URL
-          var isDeveloper = window.location.search.includes('dev');
-        
+            function redirectToHome() {
+                window.location.href = window.location.origin;
+            }
+
+            var countdownNumber = 10; // Set the initial countdown value
+            var countdownElement = document.getElementsByClassName('lp-countdown-number')[0];
+
+            // Check if the 'developer' parameter is present in the URL
+            var isDeveloper = window.location.search.includes('dev');
+
             if (!isDeveloper) {
                 var countdownInterval = setInterval(function () {
                     countdownNumber--;
                     countdownElement.textContent = countdownNumber;
-          
+
                     if (countdownNumber <= 0) {
                         clearInterval(countdownInterval);
-                        window.location.href = window.location.origin;
+                        redirectToHome();
                     }
                 }, 1000); // 1000 milliseconds = 1 second
             } else {
-              // Developer is present, do not redirect
-              document.getElementsByClassName('lp-countdown')[0].textContent = 'Developer mode activated. No redirection.';
+                // Developer is present, do not redirect
+                document.getElementsByClassName('lp-countdown')[0].textContent = 'Developer mode activated. No redirection.';
             }
+
+            redirectLink.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent the default behavior of the anchor tag
+                redirectToHome();
+            });
         </script>
     </div>
 </div>
