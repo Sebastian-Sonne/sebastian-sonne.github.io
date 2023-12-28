@@ -151,7 +151,7 @@
 /*
   redirect page css
 */
-.background-wrapper {
+.background-wrapper-success {
   background-image: url('/img/bg_working_dark.png');
   background-size: cover;
   background-position: center;
@@ -288,7 +288,7 @@
 
 /*
 Background styles for custom form
-*/
+
 #contact-body {
   background: url("/img/bg-material.jpg") center/cover no-repeat;
   background-color: #191919;
@@ -299,6 +299,23 @@ Background styles for custom form
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
+}
+*/
+
+.background-wrapper-contact {
+  background-image: url('/img/bg-material.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.contact-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
 /* Glassmorphism card effect for custom form */
