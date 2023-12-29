@@ -10,7 +10,7 @@ hide-in-nav: true
             <div class="lp-section-div">
                 <h3>Your message has been received successfully. We'll get back to you shortly.</h3>
 
-                <a href="#" id="redirectLink">
+                <a href="{{ site.baseurl }}/">
                     <div class="lp-countdown">Redirecting in <span class="lp-countdown-number">10</span> seconds...
                     </div>
                 </a>
@@ -44,8 +44,8 @@ hide-in-nav: true
             }
 
             redirectLink.addEventListener('click', function (event) {
-                event.preventDefault(); // Prevent the default behavior of the anchor tag
-                redirectToHome();
+                event.preventDefault();
+                redirectToHome(); 
             });
         </script>
     </div>
