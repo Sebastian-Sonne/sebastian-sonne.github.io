@@ -16,12 +16,12 @@ When I'm not behind the lens, I'm on the tennis court, navigating the line betwe
 
 ##### **Projects in the Oven: From Code to Calculators and Photography Showcase**
 
-Speaking of coding, I'm currently cooking up an [iOS calculator replica](https://github.com/Sebastian-Sonne/ios-calculator) in Java. Why? Because why not? On a different wavelength, my [personal website](https://sebastian-sonne.github.io) is in the making. It's not just another showcase—it's a high-tech, high-art gallery for my photography. You know you're in the right place when even the pixels look picturesque.
+Speaking of coding, I'm currently cooking up an [iOS calculator replica](https://github.com/Sebastian-Sonne/ios-calculator) in Java. Why? Because why not? On a different wavelength, my [personal website]({{ baseurl }}/) is in the making. It's not just another showcase—it's a high-tech, high-art gallery for my photography. You know you're in the right place when even the pixels look picturesque.
 
 ##### **Open-minded Explorer Eager for Connections (and a Good Laugh)**
 
 In a world full of algorithms, I'm just a guy looking for the perfect equation of fun and adventure. If you've got a joke to share, a tennis match to play, or a coding conundrum to crack, count me in. Let's make this online journey as exciting as the places I've been.
 
-Feel free to [connect](https://sebastian-sonne.github.io/contact), share your own adventures, and maybe we'll swap a joke or two . After all, laughter is the best travel companion.
+Feel free to [connect]({{ baseurl }}/connect), share your own adventures, and maybe we'll swap a joke or two . After all, laughter is the best travel companion.
 
 Cheers, Sebastian Sonne
