@@ -26,6 +26,6 @@ Speaking of coding, I'm currently cooking up an [iOS calculator replica](https:/
 
 In a world full of algorithms, I'm just a guy looking for the perfect equation of fun and adventure. If you've got a joke to share, a tennis match to play, or a coding conundrum to crack, count me in. Let's make this online journey as exciting as the places I've been.
 
-Feel free to [connect](https://sebastian-sonne.github.io/contact.html), share your own adventures, and maybe we'll swap a joke or two . After all, laughter is the best travel companion.
+Feel free to [connect](https://sebastian-sonne.github.io/contact), share your own adventures, and maybe we'll swap a joke or two . After all, laughter is the best travel companion.
 
 Cheers, Sebastian Sonne
