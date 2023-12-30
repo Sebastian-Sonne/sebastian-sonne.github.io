@@ -18,7 +18,7 @@ My blog serves as a platform for sharing insights, experiences, and thoughts on 
 
 ## Technical Aspects
 
-This website is based on a awesome jekyll theme by [HuxPro](https://github.com/huxpro/huxpro.github.io), which I reworked and changed to fit my requirements. I welcome contributions, suggestions, and feedback.
+This website is based on a awesome jekyll theme by [HuxPro](https://github.com/huxpro/huxpro.github.io), which I reworked and changed to fit my requirements. I am welcome contributions, suggestions, and feedback.
 
 ## Connect with Me
 
