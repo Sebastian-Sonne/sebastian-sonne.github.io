@@ -9,7 +9,7 @@
 
 Email: `sebastian.sonne.buisness@gmail.com`
 
-Alternatively you can contact me through my [contact form]({{ baseurl }}/connect):
+Alternatively you can contact me through my [contact form]({{ baseurl }}/connect).
 
 #### Technical Detals:
 This website is based on a awesome jekyll theme by [HuxPro](https://github.com/huxpro/huxpro.github.io), which I highly reworked to fit my requirements.
