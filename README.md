@@ -20,6 +20,14 @@ My blog serves as a platform for sharing insights, experiences, and thoughts on 
 
 This website is based on a awesome jekyll theme by [HuxPro](https://github.com/huxpro/huxpro.github.io), which I reworked and changed to fit my requirements. I welcome contributions, suggestions, and feedback.
 
+* reworked UI 
+    * dark ui | new Color Sheme
+    * new navigation buttons -> easy page navigation
+* contact page
+    * email contact form
+    * Formspee API
+* imprint page -> legal notice and contact
+
 ## Connect with Me
 
 I'm always open to connecting with like-minded individuals and professionals. Feel free to reach out to me on [LinkedIn](https://linkedin.com/in/sebastian-soone) or follow me here on [Github](https://github.com/sebastian-sonne).
