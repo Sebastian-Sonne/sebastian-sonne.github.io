@@ -1,4 +1,4 @@
-#### Verantwortlich für Inhalte:
+#### Verantwortlich für die Inhalte:
 
 `Sebastian Sonne`  
 `91096 Möhrendorf, Germany`
@@ -7,9 +7,10 @@
 
 Email: `sebastian.sonne.buisness@gmail.com`
 
-Ich bin außerdem über mein [Kontakt Formular]({{ baseurl }}/connect) erreichbar.
+Ich bin außerdem über mein [Kontakt Formular]({{ baseurl }}/contact) erreichbar.
 
-#### Technical Daten:
-Diese Webseite basiert auf einem Jekyll Layout von [HuxPro](https://github.com/huxpro/huxpro.github.io), welches ich stark überarbeitet habe.
+#### Technische Daten:
+Diese Webseite basiert auf einem Jekyll Layout von [HuxPro](https://github.com/huxpro/huxpro.github.io), welches stark überarbeitet wurde.
+Diese Webseite wird auf Github Pages gehostet. 
 
-Diese Webseite wird auf Github Pages gehostet. Mehr Informationen sind in meine [Github Repository](https://github.com/sebastian-sonne/sebastian-sonne.github.io) erhältlich.
+Mehr Informationen sind in meinem [Github Repository](https://github.com/sebastian-sonne/sebastian-sonne.github.io) erhältlich.
