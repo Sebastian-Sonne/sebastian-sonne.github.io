@@ -23,6 +23,9 @@ This website is based on a awesome jekyll theme by [HuxPro](https://github.com/h
 * reworked UI 
     * dark ui - new color sheme
     * new navigation buttons -> easy page navigation
+* new page layouts
+    * photography grid
+    * overall layout adjustments
 * contact page
     * email contact form
     * Formspee API
