@@ -18,6 +18,6 @@ In meiner Freizeit zieht es mich in die Natur. **Wandern** ist für mich eine M�
 
 ---
 
-Ich bin immer offen für neue Kontakte und spannende Gespräche. Wenn ihr also Lust habt, mehr über meine Abenteuer hier in den USA zu erfahren oder gemeinsame Interessen zu teilen, könnt sie [mich hier erreichen]({{ baseurl }}/connect)!
+Ich bin immer offen für neue Kontakte und spannende Gespräche. Wenn ihr also Lust habt, mehr über meine Abenteuer hier in den USA zu erfahren oder gemeinsame Interessen zu teilen, könnt sie [mich hier erreichen]({{ baseurl }}/contact)!
 
 ~ Sebastian Sonne
