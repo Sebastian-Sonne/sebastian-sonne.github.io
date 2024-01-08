@@ -72,11 +72,11 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "G-QWMT60VRHX" # Format: UA-xxxxxx-xx
-ga_domain: sebastian-sonne.github.io
+ga_domain: sebastian-sonne.com
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Hi there, I am Sebastian. Nice to meet you!"
+sidebar-about-description: "Hey there, I am Sebastian. Nice to meet you! Feel free to explore this webpage :)"
 sidebar-avatar: https://github.com/sebastian-sonne.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
