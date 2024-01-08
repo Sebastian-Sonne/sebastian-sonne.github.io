@@ -1,7 +1,7 @@
 #### Verantwortlich für die Inhalte:
 
 `Sebastian Sonne`  
-`91096 Möhrendorf, Germany`
+`91096 Möhrendorf, Deutschland`
 
 #### Kontakt:
 
